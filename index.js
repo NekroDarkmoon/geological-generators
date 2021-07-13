@@ -3,7 +3,8 @@
 // ---------------------------------------------------------
 import {moduleName, moduleTag} from './modules/constants.js';
 import {RegisterSettings} from './modules/settings.js';
-import { GeneratorMenu } from './modules/geological-generators.js'
+import { GeneratorMenu } from './modules/geological-generators.js';
+import {SoilGenerator} from './modules/soil-generator.js';
 
 
 // ---------------------------------------------------------
@@ -39,6 +40,7 @@ Hooks.on("getSceneControlButtons", controls => {
 
 Hooks.once('ready', async function(){
     console.log(`${moduleTag} | Ready.`)
+
 });
 
 
@@ -50,9 +52,6 @@ async function generatorTool() {
     // Open Menu as a Dialog
     const menu = new GeneratorMenu();
     menu.render(true);
-    console.log("I'm here");
-
-
 
 }
 
