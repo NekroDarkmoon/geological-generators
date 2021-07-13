@@ -1,1 +1,1 @@
-# geological-generators
+# Geological Generators

@@ -1,0 +1,38 @@
+{
+    "name": "geological-generators",
+    "title": "Geological Generators",
+    "description": "",   
+    "version": "0.0.1",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "minimumCoreVersion": "0.8.5",
+    "compatibleCoreVersion": "0.8.8",
+    "authors": [
+    {
+      "name": "NekroDarkmoon",
+      "url": "https://github.com/NekroDarkmoon/",
+      "discord": "Nekro Darkmoon#2995"
+    }
+    ],
+    "dependencies": [],
+    "esmodules": [
+        "index.js"
+    ],
+    "styles": [],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "url": "https://github.com/NekroDarkmoon/geological-generators",
+    "manifest": "https://raw.githubusercontent.com/NekroDarkmoon/geological-generators/main/module.json",
+    "download": "https://github.com/NekroDarkmoon/geological-generators/releases/download/0.2.5/optional-rules-dnd5e.zip",
+    "media": [
+        {
+            "type": "icon",
+            "url": ""
+        }
+    ]
+}
