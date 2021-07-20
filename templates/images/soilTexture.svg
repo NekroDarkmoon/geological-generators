@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="794" height="773" viewBox="0 0 794 773">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #c2c2c2;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-2, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+      }
+
+      .cls-3 {
+        fill: #959595;
+      }
+
+      .cls-4 {
+        fill: #868686;
+      }
+
+      .cls-5 {
+        fill: #a4a4a4;
+      }
+
+      .cls-6 {
+        fill: #777;
+      }
+
+      .cls-7 {
+        fill: #4b4b4b;
+      }
+
+      .cls-8 {
+        fill: #5a5a5a;
+      }
+
+      .cls-9 {
+        fill: #696969;
+      }
+
+      .cls-10, .cls-11 {
+        fill: #2d2d2d;
+      }
+
+      .cls-10 {
+        filter: url(#filter);
+      }
+
+      .cls-12 {
+        fill: #1e1e1e;
+      }
+
+      .cls-13 {
+        font-size: 13.333px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Alien Encounters";
+      }
+    </style>
+    <filter id="filter" x="369" y="611" width="293" height="146" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#3c3c3c"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M29,15V308H323Z"/>
+  <path class="cls-1" d="M31,311L178,457H363V347l-36-36H31Z"/>
+  <path class="cls-2" d="M29,314V457H173Z"/>
+  <rect class="cls-3" x="29" y="461" width="146" height="86"/>
+  <rect class="cls-4" x="179" y="461" width="184" height="86"/>
+  <path class="cls-5" d="M366,350V495H511Z"/>
+  <path class="cls-6" d="M366,498v51l51,58H623L514,498H366Z"/>
+  <path class="cls-7" d="M364,551l51,58V720H365L218,551H364Z"/>
+  <path class="cls-8" d="M29,551H214L363,723l34,34H170L88,667H29"/>
+  <path class="cls-9" d="M29,671H87l78,86H29V671Z"/>
+  <path class="cls-10" d="M369,723h50V611H627l35,36L552,757H402Z"/>
+  <path class="cls-11" d="M557,757h92l50-73-34-34h-1Z"/>
+  <path class="cls-12" d="M653,757H772l-70-70Z"/>
+  <text id="SLIT" class="cls-13" x="73" y="723.5"><tspan x="73">SLIT</tspan></text>
+  <text id="Slit_Loam" data-name="Slit Loam" class="cls-13" x="160" y="648.75"><tspan x="160">Slit Loam</tspan></text>
+  <text id="Loam" class="cls-13" x="348.5" y="635.5"><tspan x="348.5">Loam</tspan></text>
+  <text id="SANDY_LOAM" data-name="SANDY LOAM" class="cls-13" x="515.25" y="696"><tspan x="515.25">SANDY LOAM</tspan></text>
+  <text id="SAND" class="cls-13" x="708" y="735.5"><tspan x="708">SAND</tspan></text>
+  <text id="LOAMY_SAND" data-name="LOAMY  SAND" class="cls-13" x="645.25" y="710.25"><tspan x="645.25">LOAMY </tspan><tspan x="645.25" dy="16">SAND</tspan></text>
+  <text id="SANDY_CLAY_loam" data-name="SANDY CLAY loam" class="cls-13" x="481.75" y="560.5"><tspan x="481.75">SANDY CLAY loam</tspan></text>
+  <text id="clay_loam" data-name="clay loam" class="cls-13" x="274.75" y="510.25"><tspan x="274.75">clay loam</tspan></text>
+  <text id="slity_clay_loam" data-name="slity clay loam" class="cls-13" x="102.75" y="512.5"><tspan x="102.75">slity clay loam</tspan></text>
+  <text id="slity_clay" data-name="slity clay" class="cls-13" x="74.75" y="415.75"><tspan x="74.75">slity clay</tspan></text>
+  <text id="clay" class="cls-13" x="233" y="389.75"><tspan x="233">clay</tspan></text>
+  <text id="sandy_clay" data-name="sandy clay" class="cls-13" x="413.5" y="450.25"><tspan x="413.5">sandy</tspan><tspan x="413.5" dy="16">clay</tspan></text>
+  <text id="heavy_clay" data-name="heavy clay" class="cls-13" x="102.5" y="204.25"><tspan x="102.5">heavy clay</tspan></text>
+</svg>

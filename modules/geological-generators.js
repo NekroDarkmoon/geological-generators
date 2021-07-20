@@ -2,6 +2,7 @@
 //                          Imports
 // ---------------------------------------------------------
 import { moduleName, moduleTag } from "./constants.js";
+import { SoilGenerator } from "./soil-generator.js";
 
 // ---------------------------------------------------------
 //                           Menu
@@ -11,7 +12,9 @@ export class GeneratorMenu extends Application {
     constructor(dialogData={}, options={}){
         super(dialogData, options);
         this.data = dialogData;
-        
+        this.soilGenerator = new SoilGenerator();
+        this.soilGenDisplay = {name: "Soil Texture: ", props: ""};
+
     }
 
     static get defaultOptions() {
@@ -22,19 +25,38 @@ export class GeneratorMenu extends Application {
             width: 550,
             height: 'auto',
             resizable: true,
+            
         });
     }
 
     getData(options={}){
         const data = {
-            temp: {}
+            soilGenerator: {
+                name: this.soilGenDisplay.name,
+                props: JSON.stringify(this.soilGenDisplay.props),
+            }
         };
          
         return data;
     }
 
-    activeListeners(html){
-        super.activeListeners(html);
+    activateListeners(html){
+        super.activateListeners(html);
+
+        // Generate soil type on click.
+        html.on("click", "#genSoil", async (event) => {
+            console.log(event);
+            this.soilGenerator.generate();
+
+            let tex = {
+                name: `Soil texture: ${this.soilGenerator.name}`,
+                props: this.soilGenerator.props
+            };
+
+            this.soilGenDisplay = tex;
+
+            this.render(true);
+        });
     }
 
     async _updateObject(event, formData) {

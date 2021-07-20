@@ -1,5 +1,20 @@
 <h1> Geological Generators </h1>
 
-<h2> Soil Texture Generator</h2>
-<button>Generate Soil Texture</button>
-<input type="text" />
+<nav class="sheet-tabs tabs" data-group="sections">
+    <a class="item active" data-tab="soilGenerator"><i class="fas fa-campground"></i>Soil Texture</a>
+</nav>
+<hr />
+
+<section id="config-tabs" class="content">
+    <div id="geoSoilDisplay">
+        {{#with this}}
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <img src="./modules/geological-generators/templates/images/soilTexture.svg" 
+                    height="400px" style="border: 0px;">
+            </div>
+            <p style="text-align: center;">{{this.soilGenerator.name}}</p>
+            <!-- <p>{{this.soilGenerator.props}}</p> -->
+            <button type="button" id="genSoil">Generate Soil Texture</button>
+        {{/with}}
+    </div>
+</section>

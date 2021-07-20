@@ -11,7 +11,8 @@ export class SoilGenerator {
 
     constructor(options={}) {
       this.options = options;
-
+      this.props = null;
+      this.name = null;
     }
 
 
@@ -32,7 +33,6 @@ export class SoilGenerator {
       props.sand = point[0];
       props.clay = point[1];
       props.slit = 100 - (props.sand + props.clay);
-      console.log(props);
 
       for (let [key, value] of Object.entries(props)) {
         if (value < 0) {
@@ -51,12 +51,14 @@ export class SoilGenerator {
         const polygon = texturePolygons[index];
         if (this.isInside(polygon, point)) {
           console.log(polygon.name);
+          this.name = polygon.name;
           break;
         }
         
       }
 
       console.log(props);
+      this.props = props;
 
     }      
 
@@ -142,7 +144,7 @@ export class SoilGenerator {
 
         if (this.doIntersect(polygon.geom[i], polygon.geom[next], point, extreme)) {
           if (this.orientation(polygon.geom[i], point, polygon.geom[next]) == 0) {
-            return this.onSegment(polygon.geom[i], point, polygon[next]);
+            return this.onSegment(polygon.geom[i], point, polygon.geom[next]);
           }
 
           count++;
