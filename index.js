@@ -47,6 +47,9 @@ Hooks.once('ready', async function(){
 // ---------------------------------------------------------
 //                      GeneratorMenu 
 // ---------------------------------------------------------
+/**
+ * 
+ */
 async function generatorTool() {
 
     // Open Menu as a Dialog

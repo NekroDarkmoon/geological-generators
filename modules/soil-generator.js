@@ -9,13 +9,20 @@ import { moduleName, moduleTag } from "./constants.js";
 // ---------------------------------------------------------
 export class SoilGenerator {
 
+    /**
+     * 
+     * @param {*} options 
+     */
     constructor(options={}) {
       this.options = options;
       this.props = null;
       this.name = null;
     }
 
-
+    /**
+     * 
+     * @returns 
+     */
     randomPoint(){
       let point = [];
       point[0] = Math.floor(Math.random() * 100) + 1;
@@ -24,10 +31,12 @@ export class SoilGenerator {
       return point;
     }
 
-
+    /**
+     * 
+     */
     generate() {
       let point = this.randomPoint();
-      console.log(point);
+      // console.log(point);
 
       let props = {};
       props.sand = point[0];
@@ -50,14 +59,14 @@ export class SoilGenerator {
       for (let index = 0; index < texturePolygons.length; index++) {
         const polygon = texturePolygons[index];
         if (this.isInside(polygon, point)) {
-          console.log(polygon.name);
+          // console.log(polygon.name);
           this.name = polygon.name;
           break;
         }
         
       }
 
-      console.log(props);
+      // console.log(props);
       this.props = props;
 
     }      

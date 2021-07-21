@@ -25,7 +25,7 @@ export class GeneratorMenu extends Application {
             width: 550,
             height: 'auto',
             resizable: true,
-            
+            tabs: [{navSelector: ".tabs", contentSelector: "section", inital: "geoSoilDisplay"}] 
         });
     }
 
